@@ -1,6 +1,7 @@
 The auto keyword; you can now get the compiler to infer types most of the time with auto:
-## auto i = 7;
-
+```
+auto i = 7;
+```
 Standardized initialization with {}. E.g.
 int i{8};
 string text{"hello"};
