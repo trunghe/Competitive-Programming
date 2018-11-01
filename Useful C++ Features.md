@@ -26,7 +26,7 @@ void print(initializer_list<string> texts) {
 print({"one", "two", "three", "four"});
 ```
 (Here the loop is an enhanced ```for``` loop -- see next)
-# Enhanced ```for``` loops;
+# Enhanced ```for``` loops
 These allow you to iterate over collections, arrays or even Strings without a loop index or an explicit iterator (although for classes, the iterator must be implemented):
 ```
 int numbers[] = {1, 3, 4};
