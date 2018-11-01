@@ -1,4 +1,5 @@
 Source: https://www.quora.com/As-a-competitive-programmer-what-C++11-features-should-I-be-aware-of-and-what-are-some-examples-that-illustrate-their-usage
+By: https://www.quora.com/profile/John-Purcell-4
 
 # The auto keyword
 You can now get the compiler to infer types most of the time with auto:
