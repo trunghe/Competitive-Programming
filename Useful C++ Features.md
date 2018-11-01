@@ -19,7 +19,7 @@ You can even implement this in your own constructors, methods and functions:
 ```
 void print(initializer_list<string> texts) {
     for(auto value: texts) {
-    cout << value << endl;
+        cout << value << endl;
     }
 }
 
