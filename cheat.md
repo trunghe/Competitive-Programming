@@ -27,6 +27,7 @@ Table of Content
 1. KMP	19
 
 Templete
+```
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -58,6 +59,7 @@ int main()
    cerr << "Hello" << endl;
    return 0;
 }
+```
 
 1. Math 				
 1. Bit manupulation
