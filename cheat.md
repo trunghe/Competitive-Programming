@@ -26,7 +26,7 @@ Table of Content
 5. String	19
 1. KMP	19
 
-# H2 0. Template
+## 0. Template
 ```
 #include <bits/stdc++.h>
 
@@ -61,8 +61,8 @@ int main()
 }
 ```
 
-# H2 1. Math 				
-## H3 1. Bit manupulation
+## 1. Math 				
+### 1. Bit manupulation
 ```
 #define isOn(S, j) (S & (1 << j))
 #define setBit(S, j) (S |= (1 << j))
@@ -80,7 +80,7 @@ int main()
 #define turnOnLastConsecutiveZeroes(S) ((S) | (S - 1))
 ```
 		
-## H3 2. Extended Euclid
+### H3 2. Extended Euclid
 ```
 void extendedEuclid(ll a, ll b) { 
     if (b == 0) { x = 1; y = 0; d = a; return; }
