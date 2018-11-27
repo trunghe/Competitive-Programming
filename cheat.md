@@ -27,7 +27,7 @@ Table of Content
 1. KMP	19
 
 ## 0. Template
-```
+```c++
 #include <bits/stdc++.h>
 
 using namespace std;
