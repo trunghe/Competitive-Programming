@@ -1,6 +1,6 @@
 Table of Content
 
-Templete	1
+0. Templete	1
 1. Math	1
 1. Bit manupulation	1
 2. Extended Euclid	2
@@ -26,7 +26,7 @@ Table of Content
 5. String	19
 1. KMP	19
 
-Templete
+# H2 0. Template
 ```
 #include <bits/stdc++.h>
 
@@ -61,8 +61,9 @@ int main()
 }
 ```
 
-1. Math 				
-1. Bit manupulation
+# H2 1. Math 				
+## H3 1. Bit manupulation
+```
 #define isOn(S, j) (S & (1 << j))
 #define setBit(S, j) (S |= (1 << j))
 #define clearBit(S, j) (S &= ~(1 << j))
@@ -77,9 +78,10 @@ int main()
 #define turnOnLastZero(S) ((S) | (S + 1))
 #define turnOffLastConsecutiveBits(S) ((S) & (S + 1))
 #define turnOnLastConsecutiveZeroes(S) ((S) | (S - 1))
-
+```
 		
-2. Extended Euclid
+## H3 2. Extended Euclid
+```
 void extendedEuclid(ll a, ll b) { 
     if (b == 0) { x = 1; y = 0; d = a; return; }
     extendedEuclid(b, a % b);
@@ -88,6 +90,7 @@ void extendedEuclid(ll a, ll b) {
     x = x1;
     y = y1;
 }
+```
 
 3. Calculate nCk
 ll C[nMAX][nMAX];
