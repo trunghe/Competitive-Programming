@@ -80,7 +80,7 @@ int main()
 #define turnOnLastConsecutiveZeroes(S) ((S) | (S - 1))
 ```
 		
-### H3 2. Extended Euclid
+### 2. Extended Euclid
 ```
 void extendedEuclid(ll a, ll b) { 
     if (b == 0) { x = 1; y = 0; d = a; return; }
