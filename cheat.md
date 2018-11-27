@@ -63,7 +63,7 @@ int main()
 
 ## 1. Math 				
 ### 1. Bit manupulation
-```
+```c++
 #define isOn(S, j) (S & (1 << j))
 #define setBit(S, j) (S |= (1 << j))
 #define clearBit(S, j) (S &= ~(1 << j))
@@ -81,7 +81,7 @@ int main()
 ```
 		
 ### 2. Extended Euclid
-```
+```c++
 void extendedEuclid(ll a, ll b) { 
     if (b == 0) { x = 1; y = 0; d = a; return; }
     extendedEuclid(b, a % b);
