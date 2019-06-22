@@ -8,7 +8,7 @@ using namespace std;
 // Fermat's little theorem:
 //  a^(p-1) = 1 (mod p) when p is a prime number.
 const ll R = 1e9 + 7; // a^(R-1) = 1 (mod R)
-const ll MATRIX_REMAINER = R-1;
+const ll MATRIX_REMAINDER = R-1;
 
 // Matrix class
 class Matrix {
